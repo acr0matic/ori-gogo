@@ -3,4 +3,10 @@
 // и подключение дополнительных вариаций
 // -----------------------------------------------------------------------------
 
-@import 'button';
+$button-primary__bg: #393d46;
+
+$button-outline__border: 1px solid #707070;
+$button-outline__border--hover: 1px solid #393d46;
+$button-outline__bg--hover: #393d46;
+
+@import "button";
