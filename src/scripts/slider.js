@@ -16,3 +16,13 @@ const promotion = new Swiper('.slider-promotion', {
     prevEl: '.slider-promotion__prev',
   },
 });
+
+const recommended = new Swiper('.slider-recommended', {
+  slidesPerView: 5,
+  spaceBetween: 15,
+
+  // navigation: {
+  //   nextEl: '.slider-promotion__next',
+  //   prevEl: '.slider-promotion__prev',
+  // },
+});

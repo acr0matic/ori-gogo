@@ -1,0 +1,22 @@
+.recommended-item {
+  padding: 30px 35px 12px 35px;
+  background-color: $palette-white;
+
+  text-align: center;
+  box-shadow: 0px 16px 50px #0000000d;
+
+  &__picture {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    margin-bottom: 5px;
+    font-size: $font-size__text--small;
+    font-weight: $weight-Medium;
+  }
+
+  &__price {
+    font-size: $font-size__text--regular;
+    color: $color-text__gray;
+  }
+}

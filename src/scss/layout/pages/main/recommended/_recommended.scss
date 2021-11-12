@@ -1,0 +1,31 @@
+#recommended {
+  margin-top: 50px;
+  background-color: $palette-white;
+}
+
+.recommended {
+  position: relative;
+
+  &__title {
+    position: absolute;
+    z-index: 1;
+    left: -69px;
+    top: 50%;
+
+    display: inline-block;
+    padding: 10px 35px 130px 35px;
+
+    background-color: $pallete-gold;
+    color: $color-text__white;
+
+    font-weight: $weight-Medium;
+    letter-spacing: 5px;
+
+    transform: rotate(270deg) translateX(29%);
+  }
+
+  &__slider {
+    z-index: 2;
+    margin-left: 60px;
+  }
+}
