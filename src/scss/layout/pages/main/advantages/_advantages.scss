@@ -1,0 +1,18 @@
+#advantages {
+
+}
+
+.advantages {
+  &__title {
+    margin-bottom: 50px;
+    font-weight: $weight-Regular;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 0 25px;
+  }
+}
