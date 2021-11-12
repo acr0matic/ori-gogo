@@ -1,0 +1,16 @@
+.button-outline {
+  border: $button-outline__border;
+  padding: 5px 20px;
+
+  font-weight: $weight-Medium;
+  color: $color-text__gray--light;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: $button-outline__bg--hover;
+      border: $button-outline__border--hover;
+
+      color: $color-text__white;
+    }
+  }
+}

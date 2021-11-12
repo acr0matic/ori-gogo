@@ -3,9 +3,34 @@
 // -----------------------------------------------------------------------------
 
 #header {
-
 }
 
 .header {
+  &__picture {
+    margin-bottom: 40px;
+  }
 
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__dropdown {
+    margin-right: 35px;
+  }
+
+  &__action {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+
+    .search .input__field {
+      width: 110px;
+
+      &:focus {
+        width: 200px;
+      }
+    }
+  }
 }

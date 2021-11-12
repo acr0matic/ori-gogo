@@ -1,0 +1,25 @@
+.input {
+  position: relative;
+
+  &__field {
+    width: 100%;
+    outline: none;
+  }
+
+  &--search {
+    .input__field {
+      padding: 5px 30px 5px 20px;
+
+      border: none;
+      border-bottom: 1px solid $color-text__gray--light;
+
+      transition: $transition__component;
+    }
+
+    .input__icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}

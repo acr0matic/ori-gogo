@@ -1,0 +1,32 @@
+.dropdown {
+  cursor: pointer;
+
+  &__header {
+    position: relative;
+  }
+
+  &--header {
+    .dropdown__header {
+      padding: 8px 55px 6px 55px;
+
+      background-image: linear-gradient(
+        270deg,
+        #dcb97b 0%,
+        #fee5a5 0%,
+        #c39d5f 100%
+      );
+
+      color: $color-text__white;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    .dropdown__icon {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+
+      transform: translateY(-50%);
+    }
+  }
+}

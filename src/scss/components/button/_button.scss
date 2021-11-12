@@ -1,0 +1,17 @@
+.button {
+  display: block;
+
+  outline: none;
+  border: none;
+
+  background-color: transparent;
+  cursor: pointer;
+
+  text-align: center;
+  transition: $transition__component;
+
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
