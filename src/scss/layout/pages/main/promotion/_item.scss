@@ -1,0 +1,47 @@
+.promotion-item {
+  padding: 25px 25px;
+  background-color: $palette-white;
+
+  &__picture {
+  }
+
+  &__image {
+  }
+
+  &__action {
+    margin-top: 15px;
+  }
+
+  &__button {
+    width: 100%;
+  }
+
+  &__title {
+    margin-bottom: 18px;
+    font-size: $font-size__text--large;
+  }
+
+  &__subtitle {
+    font-weight: $weight-Bold;
+  }
+
+  &__timer {
+    margin-bottom: 15px;
+  }
+
+  &__cost {
+    display: flex;
+    align-items: center;
+
+    margin-top: 15px;
+  }
+
+  &__price {
+    font-size: $font-size__text--large;
+
+    &--old {
+      font-size: $font-size__text--small;
+      color: $color-text__gray;
+    }
+  }
+}

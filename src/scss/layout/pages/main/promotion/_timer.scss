@@ -1,0 +1,25 @@
+.promotion-timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 70px;
+    height: 70px;
+
+    border: 1px solid $color-text__gray;
+    text-align: center;
+  }
+
+  &__digit {
+    margin-bottom: 10px;
+  }
+
+  &__time {
+  }
+}

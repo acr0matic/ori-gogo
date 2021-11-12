@@ -1,0 +1,30 @@
+#promotion {
+  margin-top: 50px;
+}
+
+.promotion {
+  padding: 15px 30px 65px 30px;
+  background-color: $pallete-black;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    color: $color-text__white;
+
+    font-size: $font-size__text--large;
+    font-weight: $weight-Medium;
+  }
+
+  &__link {
+    color: $color-text__white;
+  }
+
+  &__slider {
+  }
+}
