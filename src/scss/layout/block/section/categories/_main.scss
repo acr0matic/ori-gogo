@@ -1,0 +1,20 @@
+#categories {
+
+}
+
+.categories {
+  &__slider {
+
+  }
+
+  &__picture {
+    transition: $transition__component;
+    backface-visibility: hidden;
+
+    @media (hover: hover) {
+      &:hover {
+        transform: scale(0.9);
+      }
+    }
+  }
+}

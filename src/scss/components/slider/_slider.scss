@@ -1,0 +1,47 @@
+.slider {
+  position: relative;
+}
+
+.swiper {
+  &-button {
+    &-prev,
+    &-next {
+      margin-top: 0;
+      width: 45px;
+      height: 45px;
+
+      transform: translateY(-50%);
+      transition: $transition__component;
+
+      @media (hover: hover) {
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+
+    &-prev,
+    &-next {
+      &::after {
+        font-size: initial;
+      }
+    }
+
+    &-prev {
+      left: -25px;
+    }
+
+    &-next {
+      right: -25px;
+    }
+
+    &-prev::after {
+      content: url("../img/icons/control/slider-button.svg");
+    }
+
+    &-next::after {
+      content: url("../img/icons/control/slider-button.svg");
+      transform: rotate(180deg);
+    }
+  }
+}
