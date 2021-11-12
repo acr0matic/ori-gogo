@@ -3,9 +3,11 @@
 // -----------------------------------------------------------------------------
 
 body {
+  color: $color-text__black;
+
   font-family: Roboto, sans-serif;
   font-size: $font-size__text--small;
-  color: $color-text__black;
+  line-height: 150%;
 }
 
 h2 {

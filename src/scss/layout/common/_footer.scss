@@ -3,9 +3,41 @@
 // -----------------------------------------------------------------------------
 
 #footer {
-
+  margin-top: 90px;
+  padding: 50px 0 15px 0;
+  background-color: $pallete-black;
 }
 
 .footer {
+  color: $color-text__white;
 
+  &__link {
+    color: $color-text__white;
+  }
+
+  &__info {
+    text-align: right;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__title {
+    &--bold {
+      font-weight: $weight-Bold;
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+
+    text-align: center;
+  }
 }

@@ -13,6 +13,8 @@
       border: none;
       border-bottom: 1px solid $color-text__gray--light;
 
+      background-color: transparent;
+
       transition: $transition__component;
     }
 
@@ -20,6 +22,29 @@
       position: absolute;
       right: 0;
       top: 0;
+    }
+  }
+
+  &--subscribe {
+    .input__field {
+      padding: 5px 30px 5px 10px;
+
+      border: none;
+      border-bottom: 1px solid $color-text__gray--light;
+
+      transition: $transition__component;
+
+      &::placeholder {
+        color: $color-text__gray;
+      }
+    }
+
+    .input__icon {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+
+      transform: translateY(-50%);
     }
   }
 }
