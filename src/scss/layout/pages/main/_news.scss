@@ -1,0 +1,27 @@
+#news {
+  margin-top: 85px;
+}
+
+.news {
+  position: relative;
+
+  &__title {
+    position: absolute;
+    left: 40px;
+    top: -40px;
+
+    font-size: 50px;
+    font-weight: $weight-Regular;
+
+    letter-spacing: 15px;
+  }
+
+  &__picture {
+    width: 100%;
+    height: 250px;
+  }
+
+  &__image {
+
+  }
+}
